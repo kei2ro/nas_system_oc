@@ -1,0 +1,113 @@
+#wrapper {
+
+}
+.nowarea {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  top: -50px;
+  left: 0px;
+  background: #3498db;
+  border-radius: 3px 3px 0 0;
+}
+.medicine_color {
+  background: #f39c12;
+}
+.green_color {
+  background: #2ecc71;
+}
+.reception_color {
+  backgrond: #3498db;
+}
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  background: #ecf0f1;
+}
+.container > p {
+  margin-top: 40px;
+}
+.container > p > .button {
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  /*background: #f39c12;*/
+  border-radius: 3px;
+  color: #333;
+}
+.button {
+	position: relative;
+	background-color: #1abc9c;
+	border-radius: 4px;
+	color: #fff;
+	line-height: 52px;
+	-webkit-transition: none;
+	transition: none;
+  font-size: 20px;
+	box-shadow: 0 3px 0 #0e8c73;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.button:hover {
+	background-color: #31c8aa;
+	box-shadow: 0 3px 0 #23a188;
+}
+.button:active {
+	top: 3px;
+	box-shadow: none;
+}
+
+.subtitle {
+  margin-top: -50px;
+  height: 50px;
+  line-height: 70px;
+
+}
+.resist dl {
+  width: 400px;
+  height: 150px;
+}
+.resist dt {
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  text-align: right;
+  float: left;
+  clear: left;
+}
+.resist dd {
+  float: left;
+}
+.resist [type="text"] {
+  border:0;
+  font-size: 1.1em;
+  width: 130px;
+  font-family:Arial, sans-serif;
+  color:#aaa;
+  border:solid 1px #ccc;
+  -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.resist .date {
+  width: 30px;
+}
+.resist [type="submit"] {
+  border:solid 1px #ccc;
+  border-radius: 2px;
+  padding:5px 30px;
+  margin:0 0 20px;
+  font-family:Arial, sans-serif;
+  font-size:1.1em;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#333;
+  cursor:pointer;
+  background: #aaa;
+}
