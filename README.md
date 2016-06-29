@@ -17,3 +17,5 @@
 * 先に外部設計を行い、内部設計を行っていく
 * css -> 環境構築 -> php
 * cssにそんなにリソースを割かない
+
+testcommit from centos
