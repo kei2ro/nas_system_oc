@@ -7,13 +7,16 @@
     <title>ここは受付です</title>
   </head>
   <body>
+    <?php
+      $name = $_POST['name'];
+     ?>
     <div id="wrapper">
       <div style="height:100px;">
 
       </div>
       <div class="container">
         <div class="nowarea medicine_color">
-          薬 
+          薬
         </div>
         <p>
           登録されました
